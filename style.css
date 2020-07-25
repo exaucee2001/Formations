@@ -1,0 +1,84 @@
+img{
+	height: 100px;
+	width: 80px;	
+}
+.nom{
+	text-align: right;
+	margin-right:40px; 
+
+}
+header{
+	border-bottom: 1px solid grey;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navlink{
+	display: inline-block;
+	vertical-align: center;
+	padding: 10px;
+	text-decoration:none;
+	color:#007fff;
+}
+.container{
+	width: 80%;
+	max-width: 800px;
+	margin: auto;
+}
+.container h2{
+	margin-left: 50px;
+}
+.articles_section{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.article{
+	width: 44%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: flex;
+	border: 1px solid rgb(192,192,192);
+	border-radius: 10px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	align-items: center;
+	padding: 4px;
+}
+#trait{
+   margin-left: 575px;
+   border-bottom:1px solid grey;
+   width: 200px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+footer{
+	border-top: 1px
+}
+.footer{
+	background-color: black;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer .navlink, .copyright{
+	color: grey;
+}
+.footer .navbar ul{
+	justify-content: center;
+}
+.copyright{
+	text-align: center;
+}
+.voir_plus{
+	margin-left: 60px;
+	font-style: italic;
+	color:#007fff;
+}
+.visite{
+	color: rgb(192,192,192);
+	font-size: 0.8em;
+}
+
+
