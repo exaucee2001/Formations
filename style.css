@@ -80,5 +80,80 @@ footer{
 	color: rgb(192,192,192);
 	font-size: 0.8em;
 }
+.menu{
+top: 0px;
+margin-left:0px;
+height: 0px;
+width: 0px;
+}
+@media all and (max-width: 768px)
+{
+ .article{
+ 	width: 100%;
+ 	height: auto;
+	display: block;
+	padding: 10px;
+}
+img{
+	margin-left: 100px;
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;}
+.voir_plus{
+	font-style: italic;
+	color:#007fff;
+	margin-left: 230px;
+}
+.visite{
+	color: rgb(192,192,192);
+	font-size: 0.8em;
+	text-align: right;
+	display: flex;
+    margin-left: 180px;
+	text-align: justify;
+}
+#trait{
+   margin-left: auto;
+   border-bottom:1px solid grey;
+   width: auto;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   
+}
+header{
+	border-bottom: none;
+}
+.nom{ font-size: 1.2em;
+	margin-right: 20px;
+    text-align: right; }
+.container h2{
+	margin-left: 12px;
+	font-size: 1em;
+}
+.menu{
+position: absolute;
+top: 0px;
+margin-left:35px;
+height: 45px;
+width: 50px;
+}
+.navbar ul{
+    display: none;
+}
+.footer.navlink{
+	display: none;
+	padding: 0px;
+}
+
+.footer .navbar ul{
+	justify-content: center;
+	display: block;
+}
+.copyright{
+	margin-left: 45px;
+}
+}
 
 
