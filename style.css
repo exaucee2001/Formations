@@ -1,6 +1,114 @@
+.articles_section{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.article{
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 15px;
+	border: 1px solid lightgray;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
 img{
+	margin-left: 100px;
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.voir_plus{
+	font-style: italic;
+    color:#007fff;
+	text-align: right;
+}
+.visite{
+	color: rgb(192,192,192);
+	font-size: 0.8em;
+	text-align: right;  
+}
+#trait{
+   margin-left: auto;
+   border-bottom:1px solid grey;
+   width: auto;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   
+}
+header{
+	border-bottom: none;
+	}
+header .navbar{
+	display:none;
+}
+.nom{ font-size: 1.2em;
+	margin-right: 20px;
+    text-align: right; }
+.container h2{
+	margin-left: 20px;
+	font-size: 1em;
+	max-width: 300px;
+}
+.menu{
+	position: absolute;
+	top: 0px;
+	height: 45px;
+	width: 50px;
+}
+.container {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    }
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding-left:0; 
+}
+.navlink{
+	text-decoration:none;
+	color: grey;
+}
+.footer{
+	background-color: black;
+	padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer.navlink{
+	display: none;
+	padding: 0px;
+}
+
+.footer .navbar ul {
+    display: block;
+    text-align: center;
+}
+.copyright{
+	color: gray;
+	text-align: center;
+}
+
+
+
+
+
+@media screen and (min-width: 768px)
+{
+  img{
 	height: 100px;
 	width: 80px;	
+}
+
+header .navbar{
+	display:flex;
+	margin-right: 215px;
 }
 .nom{
 	text-align: right;
@@ -27,7 +135,8 @@ header{
 	margin: auto;
 }
 .container h2{
-	margin-left: 50px;
+	margin-left: 60px;
+	font-size: 1.3em;
 }
 .articles_section{
 	width: 100%;
@@ -46,114 +155,56 @@ header{
 	align-items: center;
 	padding: 4px;
 }
-#trait{
-   margin-left: 575px;
-   border-bottom:1px solid grey;
-   width: 200px;
-   margin-bottom: 30px;
-   margin-top: 30px;
+#trait {
+    margin-left: auto;
+    border-bottom: 1px solid grey;
+    width: 300px;
+    margin-right: auto;
 }
 footer{
-	border-top: 1px
+	border-top: 1px;
+	
 }
+
 .footer{
 	background-color: black;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	
 }
 .footer .navlink, .copyright{
 	color: grey;
 }
+.footer .navbar{
+	display: ;
+}
 .footer .navbar ul{
 	justify-content: center;
+	display: flex;
 }
 .copyright{
 	text-align: center;
 }
 .voir_plus{
-	margin-left: 60px;
+	/*margin-left: 60px;*/
+	float: right;
 	font-style: italic;
 	color:#007fff;
 }
 .visite{
 	color: rgb(192,192,192);
 	font-size: 0.8em;
+	float: left;
 }
 .menu{
-top: 0px;
-margin-left:0px;
-height: 0px;
-width: 0px;
+	top: 0px;
+	margin-left:0px;
+	height: 0px;
+	width: 0px;
 }
-@media all and (max-width: 768px)
-{
- .article{
- 	width: 100%;
- 	height: auto;
-	display: block;
-	padding: 10px;
-}
-img{
-	margin-left: 100px;
-	width: 100px;
-	height: 100px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;}
-.voir_plus{
-	font-style: italic;
-	color:#007fff;
-	margin-left: 230px;
-}
-.visite{
-	color: rgb(192,192,192);
-	font-size: 0.8em;
-	text-align: right;
-	display: flex;
-    margin-left: 180px;
-	text-align: justify;
-}
-#trait{
-   margin-left: auto;
-   border-bottom:1px solid grey;
-   width: auto;
-   margin-bottom: 30px;
-   margin-top: 30px;
-   
-}
-header{
-	border-bottom: none;
-}
-.nom{ font-size: 1.2em;
-	margin-right: 20px;
-    text-align: right; }
-.container h2{
-	margin-left: 12px;
-	font-size: 1em;
-}
-.menu{
-position: absolute;
-top: 0px;
-margin-left:35px;
-height: 45px;
-width: 50px;
-}
-.navbar ul{
-    display: none;
-}
-.footer.navlink{
-	display: none;
-	padding: 0px;
 }
 
-.footer .navbar ul{
-	justify-content: center;
-	display: block;
-}
-.copyright{
-	margin-left: 45px;
-}
-}
+
 
 
